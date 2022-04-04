@@ -37,7 +37,7 @@ const Task2 = () => {
       <h1>TASK 2</h1>
       <form onSubmit={handleSubmit}>
         <input
-          placeholder="Enter a word"
+          placeholder="Enter Movie Title"
           value={input}
           onChange={(e) => setInput(e.target.value)}
         />
